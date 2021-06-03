@@ -1,9 +1,9 @@
-resources:
+sergiopdresources:
   - name: jfrog_nexploit_repeater
     type: GitRepo
     configuration:
       gitProvider: GitHub
-      path: NeuraLegion/jfrog-example
+      path: sergiopd/jfrog-example
 
 pipelines:
   - name: nexploit_repeater
